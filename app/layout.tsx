@@ -7,11 +7,18 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
+
+
 export const metadata: Metadata = {
   title: "DOLPHIN TUTORIALS",
   description: "Quality education for classes 1-10 in Bangalore",
-  generator: "v0.app",
-}
+  generator: "Surya's Next.js Template",
+  icons: {
+    icon: "/pp.jpeg",
+    shortcut: "/pp.jpeg",
+    apple: "/pp.jpeg",
+  },
+};
 
 export default function RootLayout({
   children,

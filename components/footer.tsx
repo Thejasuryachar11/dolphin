@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Mail, Phone, MapPin, Instagram, MessageCircle } from "lucide-react"
-
+import Image from "next/image";
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground pt-12">
@@ -9,7 +9,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
-            <h3 className="font-bold text-lg mb-4">DOLPHIN TUTORIALS</h3>
+           <h3 className="flex items-center gap-2 font-bold text-lg mb-4">
+  <Image
+    src="/pp.jpeg"
+    alt="Dolphin Tutorials Logo"
+    width={32}
+    height={32}
+    className="rounded-full"
+  />
+  DOLPHIN TUTORIALS
+</h3>
             <p className="text-sm opacity-90">
               Providing quality education and academic excellence for students in classes 1–10 under the leadership of
               Founder <strong>Praveen K</strong>.
