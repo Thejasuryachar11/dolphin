@@ -46,7 +46,7 @@ Please respond to this inquiry promptly.
     }
 
     return NextResponse.json(
-      { success: true, message: "Inquiry submitted successfully. Email sent to Praveen K." },
+      { success: true, message: "Inquiry submitted successfully. Email sent to Praveen K N." },
       { status: 200 },
     )
   } catch (error) {

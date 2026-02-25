@@ -52,7 +52,7 @@ export default function Home() {
   ]
 
   const testimonials = [
-    "Best tuition center in Rajajinagar!",
+    "Best tuition center in Hesaraghatta Main Road, T. Dasarahalli!",
     "My child improved significantly!",
     "Excellent teaching methods",
     "Professional and caring staff",
@@ -129,7 +129,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center animate-slide-up">
-              <div className="text-4xl font-bold mb-2">250+</div>
+              <div className="text-4xl font-bold mb-2">265+</div>
               <p className="text-lg opacity-90">Active Students</p>
             </div>
             <div className="text-center animate-slide-up" style={{ animationDelay: "0.1s" }}>
@@ -151,31 +151,64 @@ export default function Home() {
             A Center for Quality Education
           </h2>
           <p className="text-center text-foreground/80 mb-12 max-w-2xl mx-auto">
-            Founded by Praveen K, DOLPHIN TUTORIALS combines experienced teaching with modern pedagogical approaches
+            Founded by Praveen K N, DOLPHIN TUTORIALS combines experienced teaching with modern pedagogical approaches
             to ensure holistic student development. We believe every child deserves personalized attention and quality
             education.
           </p>
 
-          <div className="mb-8 bg-blue-50 dark:bg-blue-950/20 rounded-lg p-6 border border-blue-200 dark:border-blue-800 text-center">
-  <div className="flex items-center justify-center gap-2 mb-2">
-    <MapPin className="w-5 h-5 text-primary" />
-    <h3 className="font-semibold text-primary">Our Location</h3>
+         <div className="grid md:grid-cols-2 gap-6">
+  
+  {/* Branch 1 */}
+  <div className="bg-blue-50 dark:bg-blue-950/20 rounded-lg p-6 border border-blue-200 dark:border-blue-800 text-center">
+    <div className="flex items-center justify-center gap-2 mb-2">
+      <MapPin className="w-5 h-5 text-primary" />
+      <h3 className="font-semibold text-primary">Branch 1 – T. Dasarahalli</h3>
+    </div>
+
+    <p className="text-foreground/80 text-sm leading-relaxed mb-4">
+      #96, Near Krishna Cake Palace, Widia School Bus Stop, 8th Main, 
+      2nd Cross, Hesaraghatta Main Road, Near SBI Bank, 
+      Bhuvaneshwari Nagar, T. Dasarahalli, Bengaluru, Karnataka 560057
+    </p>
+
+    <a
+      href="https://www.google.com/maps/place/DOLPHIN+TUTORIALS/@13.0499569,77.4018854,12z/data=!4m6!3m5!1s0x3bae3cd311e8b993:0xb9eb288f66faf893!8m2!3d13.0514149!4d77.5085622!16s%2Fg%2F11c586bf1f?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block"
+    >
+      <Button className="bg-primary hover:bg-accent text-primary-foreground">
+        View on Google Maps
+      </Button>
+    </a>
   </div>
 
-  <p className="text-foreground/80 text-sm leading-relaxed mb-4">
-    #96,Near krishna cake palace, widia school bus stop, 8th Main,2 nd cross, Hesaraghatta mn rd, near SBI BANK, Bhuvaneshwari Nagar, T. Dasarahalli, Bengaluru, Karnataka 560057
-  </p>
 
-  <a
-    href="https://www.google.com/maps/place/DOLPHIN+TUTORIALS/@13.0499569,77.4018854,12z/data=!4m6!3m5!1s0x3bae3cd311e8b993:0xb9eb288f66faf893!8m2!3d13.0514149!4d77.5085622!16s%2Fg%2F11c586bf1f?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block"
-  >
-    <Button className="bg-primary hover:bg-accent text-primary-foreground">
-      View on Google Maps
-    </Button>
-  </a>
+  {/* Branch 2 */}
+  <div className="bg-blue-50 dark:bg-blue-950/20 rounded-lg p-6 border border-blue-200 dark:border-blue-800 text-center">
+    <div className="flex items-center justify-center gap-2 mb-2">
+      <MapPin className="w-5 h-5 text-primary" />
+      <h3 className="font-semibold text-primary">Branch 2 – Kirloskar Layout</h3>
+    </div>
+
+    <p className="text-foreground/80 text-sm leading-relaxed mb-4">
+      DOLPHIN TUTORIALS – Kirloskar Layout Branch, 
+      Kirloskar Layout, Siddeshwar Layout, Soundarya Layout, 
+      Sidedahalli, Bengaluru, Karnataka 560073
+    </p>
+
+    <a
+      href="https://www.google.com/maps/place/DOLPHIN+TUTORIALS+-+Kirloskar+Layout+Branch,+Kirloskar+Layout,+Siddeshwar+Layout,+Soundarya+Layout,+Bengaluru,+Sidedahalli,+Karnataka+560073/data=!4m2!3m1!1s0x3bae23001a6171db:0xd0d3a1152fef14da!17m2!4m1!1e3!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBjI2LjcuNRgAIMi8ByqnASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk2NTM1LDk0Mjg0NDU3LDk0MjgwNTc2LDk0MjY3Nzg4LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDc5MjU2OCwxMDA3OTE0ODMsMTAwNzk2MTkzQgJJTg%3D%3D&skid=47e31ad0-cc8f-4644-a844-e84f259f0c10&g_st=aw"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block"
+    >
+      <Button className="bg-primary hover:bg-accent text-primary-foreground">
+        View on Google Maps
+      </Button>
+    </a>
+  </div>
+
 </div>
 
 
@@ -191,9 +224,9 @@ export default function Home() {
 </div>
 
               <div className="md:col-span-2">
-                <h3 className="text-3xl font-bold text-primary mb-4">Meet Our Founder - Praveen K </h3>
+                <h3 className="text-3xl font-bold text-primary mb-4">Meet Our Founder - Praveen K N </h3>
                 <p className="text-foreground/80 mb-4 text-lg">
-                  With over 10+ years of experience in education, Praveen K founded DOLPHIN TUTORIALS with a vision
+                  With over 10+ years of experience in education, Praveen K N founded DOLPHIN TUTORIALS with a vision
                   to provide quality tutoring that goes beyond textbooks. His commitment to student success and holistic
                   development has transformed the academic lives of hundreds of students.
                 </p>
@@ -279,7 +312,7 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-primary mb-3">Evening Batch</h4>
-                <p className="text-xl font-bold text-accent mb-2">5:30 PM - 8:00 PM</p>
+                <p className="text-xl font-bold text-accent mb-2">4:30 PM - 8:30 PM</p>
                 <p className="text-foreground/80">Ideal for students with school schedules</p>
               </div>
             </div>
@@ -369,7 +402,7 @@ export default function Home() {
                   Classes 8-10 Board Exam Preparation
                 </h3>
                 <p className="text-foreground/80 mb-6 text-center max-w-2xl mx-auto">
-                  Specialized preparation for CBSE, ICSE, and State Board syllabi with focused exam strategies and
+                  Specialized preparation for CBSE, ICSE, and State Board syllabus with focused exam strategies and
                   comprehensive coverage
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -466,19 +499,19 @@ export default function Home() {
 {showFounderModal && (
   <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 animate-fade-in">
     <Card className="max-w-2xl w-full max-h-96 overflow-y-auto p-8">
-      <h2 className="text-3xl font-bold text-primary mb-4 text-center">About Praveen K - Founder</h2>
+      <h2 className="text-3xl font-bold text-primary mb-4 text-center">About Praveen K N - Founder</h2>
       
       {/* Added text-justify here */}
       <div className="space-y-4 text-foreground/80 text-justify">
         <p>
-          Praveen K is the visionary founder of DOLPHIN TUTORIALS, established with a mission to provide
+          Praveen K N is the visionary founder of DOLPHIN TUTORIALS, established with a mission to provide
           holistic and personalized education to students from classes 1-10. With over 15 years of experience
           in the education sector, he has successfully mentored and guided hundreds of students towards
           academic excellence.
         </p>
         <p>
           His educational philosophy centers on the belief that every child is unique and deserves
-          individualized attention. Rather than following a one-size-fits-all approach, Praveen K emphasizes
+          individualized attention. Rather than following a one-size-fits-all approach, Praveen K N emphasizes
           understanding each student's strengths, weaknesses, and learning style to provide customized
           guidance.
         </p>
@@ -488,7 +521,7 @@ export default function Home() {
           with traditional values to ensure not just academic success but also character building.
         </p>
         <p>
-          Praveen K believes that education extends beyond textbooks. He encourages critical thinking,
+          Praveen K N believes that education extends beyond textbooks. He encourages critical thinking,
           creativity, and problem-solving skills in his students, preparing them not just for exams but for
           life's challenges.
         </p>

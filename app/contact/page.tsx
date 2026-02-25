@@ -208,7 +208,7 @@ Please provide details about admission, fees, and schedule.`
                     <p className="font-medium text-foreground">Morning Batch</p>
                     <p>6:00 AM - 7:30 AM</p>
                     <p className="font-medium text-foreground mt-3">Evening Batch</p>
-                    <p>5:30 PM - 8:00 PM</p>
+                    <p>4:30 PM - 8:30 PM</p>
                   </div>
                 </div>
 
@@ -231,7 +231,7 @@ Please provide details about admission, fees, and schedule.`
                     </div>
                     <h3 className="text-xl font-semibold text-primary mb-2">Thank You!</h3>
                     <p className="text-foreground/80 mb-3">
-                      Your WhatsApp inquiry has been sent. Praveen K will respond shortly.
+                      Your WhatsApp inquiry has been sent. Praveen K N will respond shortly.
                     </p>
                     <p className="text-sm text-foreground/60">
                       DOLPHIN TUTORIALS team will contact you via WhatsApp.

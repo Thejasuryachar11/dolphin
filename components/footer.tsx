@@ -21,7 +21,7 @@ export function Footer() {
 </h3>
             <p className="text-sm opacity-90">
               Providing quality education and academic excellence for students in classes 1–10 under the leadership of
-              Founder <strong>Praveen K</strong>.
+              Founder <strong>Praveen K N</strong>.
             </p>
           </div>
 
